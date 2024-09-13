@@ -1,0 +1,21 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+input {
+  border: none;
+  border-bottom: 1px solid black;
+  outline: none;
+  padding-bottom: 4px;
+}
+
+input[type="search"]:focus {
+  border-bottom-color: red;
+}
+
+input::placeholder {
+  text-align: center;
+}

@@ -1,0 +1,16 @@
+.container img {
+  cursor: zoom-in;
+  transition: transform 2s ease;
+}
+
+input[type=checkbox] {
+  display: none;
+}
+
+input[type=checkbox]:checked~label>img {
+  top: 50%;
+  left: 50%;
+  translate: (-50%, -50%);
+  transform: scale(1.2);
+  cursor: zoom-out;
+}
